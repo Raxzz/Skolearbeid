@@ -20,14 +20,25 @@ function trekkfra(minus1, minus2) {
  return (minus1-minus2);
 
 }
-
+/*command for gange*/
 function gange() {
  var textb1 = parseInt(document.getElementById("gange1").value);
  var textb2 = parseInt(document.getElementById("gange2").value);
  document.getElementById("gangeresultat").innerHTML = "svaret er: " + Gangesvar(textb1, textb2);
 }
 
-function gangesvar(gange1, gange2) {
- return (gange1+gange2);
+function Gangesvar(gange1, gange2) {
+ return (gange1*gange2);
+
+}
+/*command for deling*/
+function deling() {
+ var textb1 = parseInt(document.getElementById("dele1").value);
+ var textb2 = parseInt(document.getElementById("dele2").value);
+ document.getElementById("deleresultat").innerHTML = "svaret er: " + delesvar(textb1, textb2);
+}
+
+function delesvar(dele1, dele2) {
+ return (dele1/dele2);
 
 }
