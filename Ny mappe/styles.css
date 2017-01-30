@@ -1,0 +1,31 @@
+body{
+  mergin:0px;
+  background: gray;
+}
+
+header {
+  height: 350px;
+  border:1px solid #CCC;
+  width:100%;
+  margin:0px auto;
+  background-image: url("Images/xd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 00px;
+  background-position: center;
+}
+
+#weapper {
+  margin: top: 10px;
+}
+
+#outer {
+  margin-left: auto;
+  margin-bottom: auto;
+  width: 100%;
+  background-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+/*I GIVE UP THIS SHIZE IS NUT WORKING <3 ;)

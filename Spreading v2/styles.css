@@ -1,0 +1,148 @@
+body{
+  mergin:0px;
+  background: gray;
+}
+header{
+  height: 350px;
+  border:1px solid #CCC;
+  width:100%;
+  margin:0px auto;
+  background-image: url("Images/Rice Banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 00px;
+  background-position: center;
+}
+
+
+/*Button command*/
+.button {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+  float: left;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+footer {
+  width: 70%;
+  text-align: center;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
+
+#weapper {
+  margin: top: 10px;
+}
+
+#outer {
+  margin-left: auto;
+  margin-bottom: auto;
+  width: 100%;
+  background-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1 {
+  text-align: center;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  font-family: 'Francois One', sans-serif;
+  margin-top: 60px;
+}
+
+h2 {
+    text-align: center;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-family: 'Francois One', sans-serif;
+}
+
+footer {
+  font-family: 'Francois One', sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+
+p {
+  text-align: center;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.kevin {
+  border-radius: 6px;
+  position: center;
+  width: 100%
+}
+
+.cancer {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: left;
+}
+
+.Pot {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: left;
+  }
+
+  .Herpes {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: left;
+    }
+    .crystalmeth {
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      position: left;
+      }
